@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES6",
+    "target": "es5",
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "outDir": "./dist"
+    "outDir": "./public"
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
